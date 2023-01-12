@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color:#1B244A;
+}
+#container{
+    color: #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#scoreG{
+    background-color: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    /* font-family: 'Cursed Timer ULiL'; */
+    font-style :'digital-clock-font';
+    /* font-family:'digital-clock-font';*/
+}
+.b{
+background: #1B244A;
+border:5px solid #9AABD8;
+font-size: bold;
+color:#9AABD8 ;
+border-radius: 5px;
+padding: 8px;
+}
+#scoreH{
+    background-color: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+#win{
+    margin-top:40px;
+    color:red;
+    background-color: darkgreen;
+    font-size: bolder;
+    padding: 10px 20px;
+}
+#save-win{
+    color:darkred
+}
